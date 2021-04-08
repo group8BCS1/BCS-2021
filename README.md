@@ -4,6 +4,6 @@ This repository is created to collect the assignment solutions for the subject C
 ## Group 8 members
 
 1. Siemba Ernest Ooko 2020/BCS/005
-2. Ndagire Lilian 2020/BCS/007/PS
+2. Ndagire Lillian 2020/BCS/007
 3. Arinjuna Sarah 2020/BCS/093/PS
 4. Kirumira Eric 2020/BCS/071/PS
