@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bd9325e-a2a1-446a-9089-314d3151f6a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter4/exercise2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter4/exercise6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter4/exercise7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/Exercise7.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/Exercise7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter2/Exercise8.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/Exercise8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/exercise2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/exercise3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/exercise5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/exercise6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/exercise2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/exercise3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter3/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/exercise4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/exercise5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/exercise7.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/exercise7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter4/exercise1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/exercise1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter4/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter4/exercise3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/exercise3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter4/exercise5.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/exercise5.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter4/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/exercise6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter4/exercise7.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/exercise7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

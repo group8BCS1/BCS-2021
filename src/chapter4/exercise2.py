@@ -1,5 +1,5 @@
 # A program that takes in function investment that take in c r t  and n
-# and calculates the final amount after investment
+# and calculates the final amount  of investment
 # p = c(1 + (r/n))**(t * n)
 def final_investment(c, r, t, n):
     first = (1 + r/n)

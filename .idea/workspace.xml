@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b29050a-6420-4ccb-810a-571adf21a03a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/BCS-2021.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter4/exercise2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter4/exercise6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter4/exercise7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/Exercise7.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/Exercise7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter2/Exercise8.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/Exercise8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/exercise2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/exercise3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/exercise5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/exercise6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter3/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/exercise2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter3/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/exercise3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter3/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/exercise4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter3/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/exercise5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter3/exercise7.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/exercise7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +12,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1rLLYhCqrfRBSxaHgidmnTSham7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -90,5 +80,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

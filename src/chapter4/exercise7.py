@@ -1,5 +1,5 @@
 # A program that uses a function called computer_grade, takes score as its parameter.
-# returns a grade as a string and computes the grade of the score
+# returns a grade as a string and computes the grade of the scores entered
 def computer_grade(score):
     if score >= 0.0 and score <= 1.0:
         if score >= 0.9:

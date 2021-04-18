@@ -1,4 +1,5 @@
-#  a function pay computation with time-and-a-half for overtime that takes in two parameters (hours and rate)
+#  A program for def function pay computation with time-and-a-half for overtime
+#  that takes in two parameters (hours and rate)
 
 
 def compute_pay(hours, rate):

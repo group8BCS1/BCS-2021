@@ -6,3 +6,8 @@ t = int(input("Enter the number of years until maturity: \n"))
 tn = t * n
 p = c * (1 + r/n)**tn
 print(round(p, 2))
+
+p = c * ( 1+ r/n)**tn
+print( round (p,2))
+print(p)
+
