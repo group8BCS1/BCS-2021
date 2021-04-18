@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bd9325e-a2a1-446a-9089-314d3151f6a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/Exercise8.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/Exercise8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/exercise4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/exercise1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/exercise1.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter4/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/exercise2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/exercise3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/exercise3.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/exercise5.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/exercise5.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/exercise6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter4/exercise7.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/exercise7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="RunManager" selected="Python.exercise6">
+  <component name="RunManager" selected="Python.exercise7">
     <configuration name="Exercise8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,10 +141,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.exercise6" />
-        <item itemvalue="Python.exercise2" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.exercise7" />
+        <item itemvalue="Python.exercise2" />
+        <item itemvalue="Python.exercise6" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.Exercise8" />
       </list>
     </recent_temporary>

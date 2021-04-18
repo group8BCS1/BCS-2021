@@ -1,7 +1,7 @@
 # A program that uses a function called computer_grade, takes score as its parameter.
 # returns a grade as a string and computes the grade of the scores entered
 def computer_grade(score):
-    if score >= 0.0 and score <= 1.0:
+    if 0.0 <= score <= 1.0:
         if score >= 0.9:
             return 'A'
         elif score >= 0.8:
@@ -16,8 +16,14 @@ def computer_grade(score):
         return 'Bad score'
 
 
-mark = float(input("Enter your score; \n"))
-grade = computer_grade(mark)
-print("Your grade is", grade)
+mark = (input("Enter your score; \n"))
+try:
+    mark = float(mark)
+
+except:
+    print("avoid string")
+
+
+print("Your grade is", computer_grade(mark))
 
 
