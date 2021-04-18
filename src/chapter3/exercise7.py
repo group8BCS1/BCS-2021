@@ -10,7 +10,7 @@ try:
     elif location == "Mbarara":
         if payment > 4000000:
             print("I can work there ")
-        else :
+        else:
             print("No thanks i can find something better ")
     elif location == "Kampala":
         if payment >= 10000000:

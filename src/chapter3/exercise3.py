@@ -1,6 +1,6 @@
 # A program to prompt for a score between 0.0 to 1.0 from the user and gives a grade
-score = float(input("Enter your score \n"))
-try :
+score = (input("Enter your score \n"))
+try:
     score = float(score)
     if score >= 0.9:
         print("A")
@@ -12,5 +12,7 @@ try :
         print("D")
     elif score < 0.6:
         print("F")
-except :
-    print("Bad score")
+    else:
+        print("Enter a numerical value between 0.0 and 1.0")
+except:
+    print(" Error enter numerical value")

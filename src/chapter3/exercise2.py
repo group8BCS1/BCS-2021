@@ -2,7 +2,7 @@
 # and prints out the program
 hours = input('Enter hours: \n')
 try:
-    hours = float(hours)
+    hours = int(hours)
     rt = input("Enter Rate:")
     rate = float(rt)
     pay = hours * rate

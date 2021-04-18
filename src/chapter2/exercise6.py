@@ -1,4 +1,4 @@
-#Distance between two points
+# Distance between two points
 x1 = int(input("Enter the value of x1: \n"))
 x2 = int(input("Enter the value of x2: \n"))
 y1 = int(input("Enter the value of y1: \n"))
