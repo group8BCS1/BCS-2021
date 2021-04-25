@@ -6,6 +6,28 @@
 #     Siemba Ernest Ooko 2020/BCS/005
 # a program for the vending machine that dispenses the change after purchasing products
 # Stock
+def alg(bal):
+    while bal > 0.25:
+        print(bal//0.25, 'quarters')
+        bal = bal % 0.25
+        continue
+    while bal > 0.1:
+        print(bal//0.1, "dimes")
+        bal = bal % 0.1
+        continue
+    while bal > 0.05:
+        print(bal//0.05, "nickels")
+        break
+    else:
+        print("0 cents")
+
+
+def change(total_deposit, price1):
+    bal = total_deposit - price1
+    print("Take the change below:")
+    alg(bal)
+
+
 
 def money(price1):
     dollar = price1 // 1
@@ -13,9 +35,9 @@ def money(price1):
     # print(cents)
     # print(dollar)
     if dollar == 0:
-        print("Payment due:", cents, "cents")
+        print("Payment due:", round(cents * 100), "cents")
     else:
-        print("Payment due:", dollar, "dollars and ", cents, "cents")
+        print("Payment due:", round(dollar), "dollars and ", round(cents * 100), "cents")
 
 def deposit():
     total_deposit = 0
@@ -87,7 +109,7 @@ while True:
             print("quit")
             break
         price1 = float(price)
-        if price1 > 0 and price1 % 0.05 == 0:
+        if price1 > 0 and (price1*100) % 5 == 0:
             print("Deposit menu")
             print("""'n' - deposit a nickel
             'd'- deposit a dime
