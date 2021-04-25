@@ -4,6 +4,7 @@
 #     Kirumira Eric 2020/BCS/071/PS
 #     Arinjuna Sarah 2020/BCS/093/PS
 #     Siemba Ernest Ooko 2020/BCS/005
+# 25th April 2021
 # a program for the vending machine that dispenses the change after purchasing products
 # Stock
 def alg(bal):
@@ -22,13 +23,14 @@ def alg(bal):
         print("0 cents")
 
 
+# function to give change
 def change(total_deposit, price1):
     bal = total_deposit - price1
     print("Take the change below:")
     alg(bal)
 
 
-
+# function that converts money into dollars and cents
 def money(price1):
     dollar = price1 // 1
     cents = price1 % 1
@@ -39,6 +41,8 @@ def money(price1):
     else:
         print("Payment due:", round(dollar), "dollars and ", round(cents * 100), "cents")
 
+
+# Function to request for deposit
 def deposit():
     total_deposit = 0
     pric = price1
