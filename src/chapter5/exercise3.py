@@ -6,11 +6,63 @@
 #     Siemba Ernest Ooko 2020/BCS/005
 # a program for the vending machine that dispenses the change after purchasing products
 # Stock
+
 def money(price1):
     dollar = price1 // 1
     cents = price1 % 1
-    print(cents)
-    print(dollar)
+    # print(cents)
+    # print(dollar)
+    if dollar == 0:
+        print("Payment due:", cents, "cents")
+    else:
+        print("Payment due:", dollar, "dollars and ", cents, "cents")
+
+def deposit():
+    total_deposit = 0
+    pric = price1
+    while total_deposit < price1:
+        dep = input("Indicate your deposit:")
+        if dep == 'c':
+            print("Take the change below")
+            change(total_deposit, 0)
+            break
+        elif dep == "f":
+            total_deposit = total_deposit + 5
+            pric = pric - 5
+            if total_deposit < price1:
+                money(pric)
+            else:
+                change(total_deposit, price1)
+        elif dep == 'o':
+            total_deposit = total_deposit + 1
+            pric = pric - 1
+            if total_deposit < price1:
+                money(pric)
+            else:
+                change(total_deposit, price1)
+        elif dep == 'q':
+            total_deposit = total_deposit + 0.25
+            pric = pric - 0.25
+            if total_deposit < price1:
+                money(pric)
+            else:
+                change(total_deposit, price1)
+        elif dep == 'd':
+            total_deposit = total_deposit + 0.1
+            pric = pric - 0.1
+            if total_deposit < price1:
+                money(pric)
+            else:
+                change(total_deposit, price1)
+        elif dep == 'n':
+            total_deposit = total_deposit + 0.05
+            pric = pric - 0.05
+            if total_deposit < price1:
+                money(pric)
+            else:
+                change(total_deposit, price1)
+        else:
+            print("Illegal selection:", dep)
 
 
 # main program
@@ -44,6 +96,7 @@ while True:
              'f'- deposit a five dollar bill
              'c'- cancel purchase""")
             money(price1)
+            deposit()
         else:
             print("price entered should be a multiple of 0.05 and non negative number ")
 
