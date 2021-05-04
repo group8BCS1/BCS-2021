@@ -1,4 +1,4 @@
-# A program to  be used by the Utility Company for billing there Customers:.
+# A Program to  be used by the Utility Company for billing there Customers:.
 print("==================================================RESTART=======================================================")
 # function to calculate the gallons of water used
 
