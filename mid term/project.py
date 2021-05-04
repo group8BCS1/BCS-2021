@@ -25,12 +25,24 @@ def amount_billed():
         billed = round(billed, 2)
         print(f"Amount billed:${billed}")
     elif code == 'c':
-        if gallon >= 4000000:
+        if gallon <= 4000000:
+            billed = 1000.00
+            billed = round(billed, 2)
+            print(f"Amount billed:${billed}")
+        elif gallon > 4000000:
             billed = 1000.00 + (gallon - 4000000) * 0.00025
             billed = round(billed, 2)
             print(f"Amount billed:${billed}")
     else:
-        if 4000000 <= gallon <= 10000000:
+        if gallon <= 4000000:
+            billed = 1000.00
+            billed = round(billed, 2)
+            print(f"Amount billed:${billed}")
+        elif 4000000 <= gallon <= 10000000:
+            billed = 2000.00
+            billed = round(billed, 2)
+            print(f"Amount billed:${billed}")
+        elif gallon > 10000000:
             billed = 2000.00 + (gallon - 10000000) * 0.00025
             billed = round(billed, 2)
             print(f"Amount billed:${billed}")
@@ -62,7 +74,7 @@ while True:
             bill = amount_billed()
             gallon
             bill
-        elif customer_code == " i ":
+        elif customer_code == "i":
             print("Customer code:", customer_code)
             print(f"Beginning meter reading:{beg_meter_reading:09d}")
             print(f"Ending meter reading:{ end_meter_reading:09d}")
@@ -70,7 +82,7 @@ while True:
             bill = amount_billed()
             gallon
             bill
-        elif customer_code != "i,c,r":
+        else:
             print("Invalid code")
     else:
         print("Invalid meter reading")
