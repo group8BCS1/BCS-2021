@@ -5,8 +5,9 @@
 # Arinjuna Sarah 2020/BCS/093/PS
 # Siemba Ernest Ooko 2020/BCS/005
 # 25th April 2021
-# a program for the vending machine that dispenses the change after purchasing products
-# Stock
+# a program for the vending machine that dispenses the change after purchasing products.
+# Stock curent
+
 def alg(bal):
     while bal > 0.25:
         print(bal//0.25, 'quarters')
@@ -42,7 +43,7 @@ def money(price1):
         print("Payment due:", round(dollar), "dollars and ", round(cents * 100), "cents")
 
 
-# Function to request for deposit
+# Function to request for deposits
 def deposit():
     total_deposit = 0
     pric = price1

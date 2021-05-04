@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b29050a-6420-4ccb-810a-571adf21a03a" name="Default Changelist" comment="FINAL VERSION OF THE PROGRAM" />
+    <list default="true" id="8b29050a-6420-4ccb-810a-571adf21a03a" name="Default Changelist" comment="80% done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter5/exercise3.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620150480361</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="80% done">
+      <created>1620151842941</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620151842941</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +165,7 @@
     <MESSAGE value="simple version of the program" />
     <MESSAGE value="done with 80% of the program" />
     <MESSAGE value="FINAL VERSION OF THE PROGRAM" />
-    <option name="LAST_COMMIT_MESSAGE" value="FINAL VERSION OF THE PROGRAM" />
+    <MESSAGE value="80% done" />
+    <option name="LAST_COMMIT_MESSAGE" value="80% done" />
   </component>
 </project>
