@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bd9325e-a2a1-446a-9089-314d3151f6a7" name="Default Changelist" comment="exercise3 79% completed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/exercise3.py" afterDir="false" />
-    </list>
+    <list default="true" id="9bd9325e-a2a1-446a-9089-314d3151f6a7" name="Default Changelist" comment="final version of the program" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619342636694</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="final version of the program">
+      <created>1620148110468</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620148110468</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +201,8 @@
     <MESSAGE value="exercise3 50% completed" />
     <MESSAGE value="exercise3 75% completed" />
     <MESSAGE value="exercise3 79% completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercise3 79% completed" />
+    <MESSAGE value="final version of the program" />
+    <option name="LAST_COMMIT_MESSAGE" value="final version of the program" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
