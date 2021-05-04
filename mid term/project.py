@@ -1,4 +1,4 @@
-# A program to  be used by the utility company for billing its customers
+# A program to  be used by the utility company for billing its customers for a certain period of time.
 print("==================================================RESTART=======================================================")
 # function to calculate the gallons of water used
 
@@ -86,3 +86,4 @@ while True:
             print("Invalid code")
     else:
         print("Invalid meter reading")
+
