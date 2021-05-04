@@ -1,9 +1,9 @@
 # this is an exercise3 for group8BCS1
-#     GROUP 8 BCS1 MEMBERS INCLUDE
-#     Ndagire Lillian 2020/BCS/007
-#     Kirumira Eric 2020/BCS/071/PS
-#     Arinjuna Sarah 2020/BCS/093/PS
-#     Siemba Ernest Ooko 2020/BCS/005
+# GROUP 8 BCS1 MEMBERS INCLUDE
+# Ndagire Lillian 2020/BCS/007
+# Kirumira Eric 2020/BCS/071/PS
+# Arinjuna Sarah 2020/BCS/093/PS
+# Siemba Ernest Ooko 2020/BCS/005
 # 25th April 2021
 # a program for the vending machine that dispenses the change after purchasing products
 # Stock
