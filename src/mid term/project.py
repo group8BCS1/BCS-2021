@@ -21,7 +21,7 @@ def amount_billed():
     code = customer_code
     billed = float()
     if code == "r":
-        billed = 5.00 + (gallon * 0.005)
+        billed = 5.00 + (gallon * 0.0005)
         billed = round(billed, 2)
         print(f"Amount billed:${billed}")
     elif code == 'c':
@@ -38,7 +38,7 @@ def amount_billed():
             billed = 1000.00
             billed = round(billed, 2)
             print(f"Amount billed:${billed}")
-        elif 4000000 <= gallon <= 10000000:
+        elif 4000000 < gallon <= 10000000:
             billed = 2000.00
             billed = round(billed, 2)
             print(f"Amount billed:${billed}")
@@ -55,38 +55,39 @@ ending_meter_reading = 000000000
 
 while True:
     customer_code = input("Enter customer code:").lower()
-    if customer_code == "c,r,i":
-        beg_meter_reading = int(input("Enter beginning meter reading:"))
-        end_meter_reading = int(input("Enter ending meter reading: "))
-        if 0 < beg_meter_reading < 999999999 and 0 < end_meter_reading < 999999999:
-            if customer_code == "r":
-                print("Customer code:", customer_code)
-                print(f"Beginning meter reading:{beg_meter_reading:09d}")
-                print(f"Ending meter reading:{ end_meter_reading:09d}")
-                gallon = gallons(beg_meter_reading, end_meter_reading)
-                bill = amount_billed()
-                gallon
-                bill
-            elif customer_code == "c":
-                print("Customer code:", customer_code)
-                print(f"Beginning meter reading:{beg_meter_reading:09d}")
-                print(f"Ending meter reading:{ end_meter_reading:09d}")
-                gallon = gallons(beg_meter_reading, end_meter_reading)
-                bill = amount_billed()
-                gallon
-                bill
-            elif customer_code == "i":
-                print("Customer code:", customer_code)
-                print(f"Beginning meter reading:{beg_meter_reading:09d}")
-                print(f"Ending meter reading:{ end_meter_reading:09d}")
-                gallon = gallons(beg_meter_reading, end_meter_reading)
-                bill = amount_billed()
-                gallon
-                bill
-
+    beg_meter_reading = int(input("Enter beginning meter reading:"))
+    end_meter_reading = int(input("Enter ending meter reading: "))
+    if 0 < beg_meter_reading < 999999999 and 0 < end_meter_reading < 999999999:
+        if customer_code == "r":
+            print("Customer code:", customer_code)
+            print(f"Beginning meter reading:{beg_meter_reading:09d}")
+            print(f"Ending meter reading:{ end_meter_reading:09d}")
+            gallon = gallons(beg_meter_reading, end_meter_reading)
+            bill = amount_billed()
+            gallon
+            bill
+        elif customer_code == "c":
+            print("Customer code:", customer_code)
+            print(f"Beginning meter reading:{beg_meter_reading:09d}")
+            print(f"Ending meter reading:{ end_meter_reading:09d}")
+            gallon = gallons(beg_meter_reading, end_meter_reading)
+            bill = amount_billed()
+            gallon
+            bill
+        elif customer_code == "i":
+            print("Customer code:", customer_code)
+            print(f"Beginning meter reading:{beg_meter_reading:09d}")
+            print(f"Ending meter reading:{ end_meter_reading:09d}")
+            gallon = gallons(beg_meter_reading, end_meter_reading)
+            bill = amount_billed()
+            gallon
+            bill
         else:
-            print("Invalid  meter reading")
+            print("invalid code ")
+            break
+
     else:
-        break
+        print("Invalid  meter reading")
+
 
 
