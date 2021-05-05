@@ -55,35 +55,38 @@ ending_meter_reading = 000000000
 
 while True:
     customer_code = input("Enter customer code:").lower()
-    beg_meter_reading = int(input("Enter beginning meter reading:"))
-    end_meter_reading = int(input("Enter ending meter reading: "))
-    if 0 < beg_meter_reading < 999999999 and 0 < end_meter_reading < 999999999:
-        if customer_code == "r":
-            print("Customer code:", customer_code)
-            print(f"Beginning meter reading:{beg_meter_reading:09d}")
-            print(f"Ending meter reading:{ end_meter_reading:09d}")
-            gallon = gallons(beg_meter_reading, end_meter_reading)
-            bill = amount_billed()
-            gallon
-            bill
-        elif customer_code == "c":
-            print("Customer code:", customer_code)
-            print(f"Beginning meter reading:{beg_meter_reading:09d}")
-            print(f"Ending meter reading:{ end_meter_reading:09d}")
-            gallon = gallons(beg_meter_reading, end_meter_reading)
-            bill = amount_billed()
-            gallon
-            bill
-        elif customer_code == "i":
-            print("Customer code:", customer_code)
-            print(f"Beginning meter reading:{beg_meter_reading:09d}")
-            print(f"Ending meter reading:{ end_meter_reading:09d}")
-            gallon = gallons(beg_meter_reading, end_meter_reading)
-            bill = amount_billed()
-            gallon
-            bill
+    if customer_code == "c,r,i":
+        beg_meter_reading = int(input("Enter beginning meter reading:"))
+        end_meter_reading = int(input("Enter ending meter reading: "))
+        if 0 < beg_meter_reading < 999999999 and 0 < end_meter_reading < 999999999:
+            if customer_code == "r":
+                print("Customer code:", customer_code)
+                print(f"Beginning meter reading:{beg_meter_reading:09d}")
+                print(f"Ending meter reading:{ end_meter_reading:09d}")
+                gallon = gallons(beg_meter_reading, end_meter_reading)
+                bill = amount_billed()
+                gallon
+                bill
+            elif customer_code == "c":
+                print("Customer code:", customer_code)
+                print(f"Beginning meter reading:{beg_meter_reading:09d}")
+                print(f"Ending meter reading:{ end_meter_reading:09d}")
+                gallon = gallons(beg_meter_reading, end_meter_reading)
+                bill = amount_billed()
+                gallon
+                bill
+            elif customer_code == "i":
+                print("Customer code:", customer_code)
+                print(f"Beginning meter reading:{beg_meter_reading:09d}")
+                print(f"Ending meter reading:{ end_meter_reading:09d}")
+                gallon = gallons(beg_meter_reading, end_meter_reading)
+                bill = amount_billed()
+                gallon
+                bill
+
         else:
-            print("Invalid code")
+            print("Invalid  meter reading")
     else:
-        print("Invalid meter reading")
+        break
+
 
