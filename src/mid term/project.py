@@ -89,5 +89,3 @@ while True:
     else:
         print("Invalid  meter reading")
 
-
-
