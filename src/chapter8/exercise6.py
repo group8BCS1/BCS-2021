@@ -1,4 +1,4 @@
-# Exercise 6 starts here!
+# program that prompts for a list of numbers that prints out maximum and minimum number!
 my_numlist = []
 while True:
     str_val = input('Enter a number: ')

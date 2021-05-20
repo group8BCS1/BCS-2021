@@ -1,7 +1,5 @@
-#  you can use this to navigate through romeo.txt
-# i tried to download the file romeo.txt but failed!
-# however that's the code
-# Exercise 1
+
+# a function called chop that takes a list and modifies it and returns none
 
 def chop(list):
     fchop = list[1:]

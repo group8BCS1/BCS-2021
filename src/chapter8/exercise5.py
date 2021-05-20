@@ -1,4 +1,4 @@
-# Exercise 5 starts here!
+#  a program that reads through the mail box  splits the line starting "From
 filename = input('Enter a file name: ')
 count = 0
 
