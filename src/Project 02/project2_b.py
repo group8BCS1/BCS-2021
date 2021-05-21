@@ -39,12 +39,11 @@ def process_file(open_object):  # """This function processes the file"""
                         count += 1
                         total += percent
                         countries.append(line[0:49].strip())  # adding  the country to the list
-                        percentages.append(percent) # adding the percentage got to the list
+                        percentages.append(percent)  # adding the percentage got to the list
                         continue
                 elif income_level == '2':  # for lower_middle_income income
                     if line[51:57] == lower_middle_income:
-                        pos = line[58:61]
-                        percent = float(pos)
+                        percent = float(line[58:61])
                         total += percent
                         count += 1
                         countries.append(line[0:49].strip())
@@ -52,8 +51,7 @@ def process_file(open_object):  # """This function processes the file"""
                         continue
                 elif income_level == '3':  # for upper_middle_ income
                     if line[51:57] == upper_middle_income:
-                        pos = line[58:61]
-                        percent = float(pos)
+                        percent = float(line[58:61])
                         count += 1
                         total += percent
                         countries.append(line[0:49].strip())
@@ -61,8 +59,7 @@ def process_file(open_object):  # """This function processes the file"""
                         continue
                 elif income_level == '4':  # for high income
                     if line[51:57] == high_income:
-                        pos = line[58:61]
-                        percent = float(pos)
+                        percent = float(line[58:61])
                         count += 1
                         total += percent
                         countries.append(line[0:49].strip())
@@ -75,9 +72,9 @@ def process_file(open_object):  # """This function processes the file"""
         max_value = max(percentages)
         min_value = min(percentages)
 
-        dic = dict(zip(countries, percentages))
-        mx = [k for k, v in dic.items() if v == max_value]
-        mn = [k for k, v in dic.items() if v == min_value]
+        oxford = dict(zip(countries, percentages))
+        mx = [k for k, v in oxford.items() if v == max_value]
+        mn = [k for k, v in oxford.items() if v == min_value]
         print(f"The following have the maximum value of {max_value}")
         for i in mx:
             print(i)
@@ -93,4 +90,4 @@ def main():  # """This func calls the open_file function and process_file functi
     process_file(user_file)
 
 
-main() # invoking the main function
+main()  # invoking the main function
